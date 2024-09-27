@@ -1,0 +1,7 @@
+pandas
+install scikit-learn==1.2.2
+tensorflow==2.16.1
+flask
+joblib==1.4.2
+
+
