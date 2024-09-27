@@ -23,7 +23,7 @@ print(type(scaler))
 
 #Engine :Database connection
 try:
-    engine = create_engine("mysql+pymysql://root:Elecrow%40123@localhost:3306/fraud_detection")
+    engine = create_engine("mysql+pymysql://root:password@localhost:3003/fraud_detection")
     with engine.connect() as connection:
         result = connection.execute(text("SELECT 1"))
         print("Database connection successful.")
