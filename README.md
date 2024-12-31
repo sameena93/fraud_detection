@@ -22,19 +22,26 @@ The objective of this project is to:
 Several visualizations were created to explore the dataset and understand feature distributions. Below are the key plots and their descriptions:
 
 1. **Fraud Distribution Pie Chart:** Visualizes the proportion of fraudulent vs. non-fraudulent transactions.
+![query](https://github.com/sameena93/fraud_detection/blob/main/static/fraud%20distribution.png)
 
 2. **Feature Distribution (cols=['id_30', 'id_31', 'id_33', 'DeviceInfo']):** 
    - Plotted using count plots for categorical variables to display their distributions.
+   - 
+![querysc](https://github.com/sameena93/fraud_detection/blob/main/static/featuredistr1.png)
+![querysc](https://github.com/sameena93/fraud_detection/blob/main/static/featuredistr2.png)
 
 3. **Email Domain and Card Details (cols=['P_emaildomain', 'R_emaildomain', 'card1', 'card2', 'card3', 'card5', 'addr1', 'addr2']):** 
    - Count plots show the frequency of different values in each feature.
+   - 
+![querysc](https://github.com/sameena93/fraud_detection/blob/main/static/emaildomian.png)
 
-4. **Product and Device Information (cols=['ProductCD', 'card4', 'card6', 'M4', 'M1', 'M2', 'M3', 'M5', 'M6', 'M7', 'M8', 'M9', 'DeviceType']):**
+
+5. **Product and Device Information (cols=['ProductCD', 'card4', 'card6', 'M4', 'M1', 'M2', 'M3', 'M5', 'M6', 'M7', 'M8', 'M9', 'DeviceType']):**
    - Count plots visualize the frequency of key categorical features.
 
-5. **Imbalanced Data Distribution:** A count plot of the `isFraud` column highlights the data imbalance.
+6. **Imbalanced Data Distribution:** A count plot of the `isFraud` column highlights the data imbalance.
 
-6. **Transaction Timestamp Analysis:** Histograms for `TransactionDT` show the distribution of transactions over time for training and test datasets.
+7. **Transaction Timestamp Analysis:** Histograms for `TransactionDT` show the distribution of transactions over time for training and test datasets.
 
 ---
 
