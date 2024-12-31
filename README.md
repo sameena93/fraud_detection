@@ -85,6 +85,24 @@ Multiple machine learning and deep learning models were implemented:
 
 ---
 
+## Evaluation Metrics
+
+1. ** XGB **
+   
+![qs](https://github.com/sameena93/fraud_detection/blob/main/static/evalutation%20of%20xgb.png)
+
+2. **RandomForest**
+   
+![qs](https://github.com/sameena93/fraud_detection/blob/main/static/evaluation%20f%20random%20forest.png)
+
+3. **LSTM**
+   
+![qs](https://github.com/sameena93/fraud_detection/blob/main/static/LSTM.png)
+
+4. **Stacking Classifier**
+![qs](https://github.com/sameena93/fraud_detection/blob/main/static/combining%20the%20ml%20and%20deepleanring%20models.png)
+---
+
 ## Repository Structure
 
 - **code/**: Python scripts for preprocessing, modeling, and evaluation.
