@@ -36,12 +36,18 @@ Several visualizations were created to explore the dataset and understand featur
 ![querysc](https://github.com/sameena93/fraud_detection/blob/main/static/emaildomian.png)
 
 
-5. **Product and Device Information (cols=['ProductCD', 'card4', 'card6', 'M4', 'M1', 'M2', 'M3', 'M5', 'M6', 'M7', 'M8', 'M9', 'DeviceType']):**
+4. **Product and Device Information (cols=['ProductCD', 'card4', 'card6', 'M4', 'M1', 'M2', 'M3', 'M5', 'M6', 'M7', 'M8', 'M9', 'DeviceType']):**
    - Count plots visualize the frequency of key categorical features.
+   
+![querysc](https://github.com/sameena93/fraud_detection/blob/main/static/carddetail.png)
 
-6. **Imbalanced Data Distribution:** A count plot of the `isFraud` column highlights the data imbalance.
+5 **Imbalanced Data Distribution:** A count plot of the `isFraud` column highlights the data imbalance.
 
-7. **Transaction Timestamp Analysis:** Histograms for `TransactionDT` show the distribution of transactions over time for training and test datasets.
+![](https://github.com/sameena93/fraud_detection/blob/main/static/count%20plot%20of%20fraud.png)
+
+6. **Transaction Timestamp Analysis:** Histograms for `TransactionDT` show the distribution of transactions over time for training and test datasets.
+
+![querysc](https://github.com/sameena93/fraud_detection/blob/main/static/transaction%20of%20timestamp.png)
 
 ---
 
